@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Aska
+email: request@voteclustering.org
+description: > # this means to ignore newlines until "baseurl:"
+  A graph-based open-ended survey framework.
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https:ask-a.org/" # the base hostname & protocol for your site
+
+#sidebar
+default-image: vc-log-big.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: Aska
+
+copyright:
+   name: Aska project
+   link: 'https://ask-a.org'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: UA-84952435-1
+
+# Comments
+disqus: no
+disqus-shortname: 
+
+#social
+facebook: https://www.facebook.com/Aska-project-110163710806712/
+#quora: http://quora.com/
+twitter: 
+#github: http://github.com/
+email: request@voteclustering.org
+
+#facebook like box
+fb-like-box: yes
+fb-app-id: 110163710806712
+fb-page-url: https://www.facebook.com/Aska-project-110163710806712/
+fb-page-title: Aska-project
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+

@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aska</title>
+    <description>A graph-based open-ended survey framework.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Nov 2020 11:32:05 +0900</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2020 11:32:05 +0900</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>2020 US Presidential Election (Oct.)</title>
+        <description>&lt;p&gt;This is a poll conducted after the last debate (Oct. 22nd) for 2020 US Presidential Election.&lt;/p&gt;
+
+&lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h4&gt;What is the most important issue to you personally in the upcoming election?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;table class=&quot;table table-striped table-hover&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Summary&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Period&lt;/td&gt;
+      &lt;td&gt;Oct. 26th – 30th, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of respondents&lt;/td&gt;
+      &lt;td&gt;278&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of opinions&lt;/td&gt;
+      &lt;td&gt;177&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of initial opinions&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Platform&lt;/td&gt;
+      &lt;td&gt;MTurk (US residents)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;response-patterns&quot;&gt;Response patterns&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Circular palette diagram&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020USpresident/October/circular_palette_diagram.png&quot; alt=&quot;fig_circular_palette&quot; style=&quot;   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linear palette diagram&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020USpresident/October/linear_palette_diagram.png&quot; alt=&quot;fig_group_size&quot; style=&quot;   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above circular/linear palette diagrams show the response pattern of each respondent; the respondents are aligned azimuthally/horizontally, and their response patterns are shown radially/vertically (see &lt;a href=&quot;https://github.com/palette-diagram/palette-diagram&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for more details about the palette diagrams).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The data has been collected through &lt;em&gt;Aska&lt;/em&gt;&lt;sup id=&quot;fnref:0&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:0&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, which generates an opinion graph as a result of a poll.&lt;/li&gt;
+  &lt;li&gt;Opinions are classified into groups using graph clustering based on the response patterns&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+  &lt;li&gt;The group labels (i.e., coding) are determined by us, based on the classified opinion texts.&lt;/li&gt;
+  &lt;li&gt;No annotation has been performed in the present analysis. That’s why we have groups of overlapped contents (&lt;em&gt;Economy&lt;/em&gt; and &lt;em&gt;COVID-19 &amp;amp; Economy&lt;/em&gt;) and there are few misclassified opinions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;opinions-in-each-opinion-group&quot;&gt;Opinions in each opinion group&lt;/h2&gt;
+&lt;p&gt;Popular opinions in each group are listed below.&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Healthcare (25 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    The most important to me is letting the president do his job. Parties working together. Accepting the results! Not destroying cities when you don't get your way.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Some sort of health care reform to make it more affordable.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;14 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    The most important issue is access to affordable healthcare
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample0&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Healthcare is the most important issue in the upcoming election. I have a pre-existing condition, a daughter who is covered under my policy but is now 23 years old and I have concern for siblings, family members and friends. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Healthcare reform and access
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Universal healthcare.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Protecting health care and the affordable care act
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;12 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Change the president and change America
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    climate change
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Improving basic human rights issues like health, nourishment, housing, and education.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample0&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample0&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Economy (5 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Reopening and stabilizing the economy. Getting employment numbers back up. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;12 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I SUPPORT ALL THE RESPONSES FIRST THE PEOPLE AND THE ECONOMY HAS TO BE OPEN NORMAL AND MORE JOBS HERE IN FLORIDA THE MINIMUN WAGE
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    The most important issue in the upcoming election is the economy. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample1&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Income Inequality
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;0 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    My most important issue is the current economy. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;0 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample1&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample1&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  COVID-19 &amp;amp; Economy (75 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Covid-19 Relief 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;38 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Economy
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;33 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Covid-19 measures.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;30 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample2&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    The most important issue to me is re-opening the economy and getting back to our normal lives.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    bringing back the economy to what it was pre covid-19
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Our healthcare and for those with pre-existing conditions 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Healthcare coverage for all Americans to help us through the pandemic and beyond.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Coronavirus crises
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Solve Covid and preventing further sickness.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Preserving the rights of the individual. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample2&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample2&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Racial equality (11 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Racial equality
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Reduce the taxes
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Social justice issues
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;7 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample3&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    ANY PARTY WILL BUT THE MAIN THING IS THE WORLD BECAME NORMAL
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    criminal justice reform, specifically being more lenient on laws and prevent prison overcrowding
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Stopping the race-baiting and division of the population
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Equality. Justice. A president who doesn't give handouts but also had a heart
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Decency, ending racism and bringing the country together.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;3 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Violence in the streets. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;1 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Some one with a moral compass. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;1 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample3&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample3&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Climate change, Women's rights, etc. (61 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    The corruption and lawlessness of the current administration. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;15 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Immigration
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;15 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Hunger, homelessness, and affordable housing
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample4&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Climate change solutions, not denials
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Women's rights/pro-choice
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    abortion and reproductive rights 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    covid and harm reduction from conservatives 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Equal rights for women
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Corruption actually being addressed and nepotism laws being enforced. The fact that Trump has funneled millions into his own businesses and contacts at the tax payers expense is out of line and He should have sold off Mar-a-lag
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Climate change.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample4&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample4&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:0&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We renamed our graph-based survey framework to &lt;em&gt;Aska&lt;/em&gt; from &lt;em&gt;voteclustering&lt;/em&gt;. &lt;a href=&quot;#fnref:0&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;You might have noticed that the opinion graph is too sparse to detect these groups. Actually, we have collected more than 278 responses and we used those extra information behind (and some other “tricks”) to achieve this resolution. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 04 Nov 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/USpresidentOct/</link>
+        <guid isPermaLink="true">http://localhost:4000/USpresidentOct/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>COVID-19 vaccine</title>
+        <description>&lt;p&gt;Are people actually willing to get a COVID-19 vaccine if it were available?&lt;/p&gt;
+
+&lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h4&gt;Would you get a COVID-19 vaccine if it were available to you today?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;table class=&quot;table table-striped table-hover&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Summary&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Period&lt;/td&gt;
+      &lt;td&gt;Sep. 24th, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of respondents&lt;/td&gt;
+      &lt;td&gt;415&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of opinions&lt;/td&gt;
+      &lt;td&gt;235&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Num. of initial opinions&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Platform&lt;/td&gt;
+      &lt;td&gt;MTurk (US residents)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;response-patterns&quot;&gt;Response patterns&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/COVID19vaccine/linear_palette_diagram.jpg&quot; alt=&quot;fig_popularity&quot; style=&quot;   width: 700px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above palette diagram shows the response pattern of each respondent (respondents are aligned horizontally, their response patterns are shown vertically).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Roughly 20% of proposed opinions are not exactly the responses to the question asked (coded as &lt;strong&gt;Not directly related to vaccine&lt;/strong&gt;). 
+We kept those opinions because there are considerable amount of respondents who reacted to them. 
+We also obtained a few opinions that can’t be coded clearly, although they are related to the vaccine (&lt;strong&gt;Unknown&lt;/strong&gt;). 
+We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overall, most of the people are positive about taking the vaccine (if it were available), although not so many people are willing to take it as soon as possible. [&lt;strong&gt;Yes&lt;/strong&gt; and &lt;strong&gt;Yes, if it is ensured to be safe&lt;/strong&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;However, a considerable number of respondents support &lt;strong&gt;No&lt;/strong&gt; and &lt;strong&gt;Wait for a while&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some people are skeptical about political influence (&lt;strong&gt;Political influences&lt;/strong&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All of these opinions have emerged spontaneously from the respondents.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;opinions-in-each-opinion-group&quot;&gt;Opinions in each opinion group&lt;/h2&gt;
+&lt;p&gt;Popular opinions in each group are listed below.&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Concern about political influences (7 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    As long as Trump is in office, nothing can be trusted to be safe.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I'm very concerned about a vaccine being approved strictly for political purposes and then being given to the public without sufficient trials. If proper procedure is followed, however, I'll get that vaccine as soon as it's available.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would never get a vaccine that is approved by USA entities while Trump is still president. I would wait for him to leave the office and THEN I can trust the US institutions again. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample0&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will NOT take the vaccine if Donald Trump says it’s o.k. but no other credible people (like Dr. Fauci) agree.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I am afraid of taking the vaccine, because of different rumors going around about the vaccine.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would like to know the vaccine development is free from political influence and was put through the standard research and trials as all vaccine are. Only then would I consider getting myself and my family vaccinated.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;7 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will not get any Vaccine rammed through by the Trump administration in order to get him re-elected.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;3 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample0&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample0&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Yes (41 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would get it to prevent spread
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;22 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Absolutely, I want the vaccine as soon as possible.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;22 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Yes.I would get it.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample1&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I am eagerly waiting for covid 9 vaccine. Covid 19 is a dangerous virus for all of us. I think vaccine helps us to get rid from Covid19.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;20 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would get a COVID vaccine, assuming I would not experience negative long-term side effects, but irrespective of the efficacy
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;20 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would take asap
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I pray each and every time to find the vaccine for this deadly virus. I would be willing to get the vaccine and ensure all people in the world will afford and access it.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would take it. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample1&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample1&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  No (19 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will not take the Covid-19 vaccine.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    covid-19 has a disastrous one. this  was stunned by the world. lot of people suffered and get more anexious. once find the suitable vaccine we will so much happy.also the safety of the vaccine is a big question. we will find a suitable one against covid-19
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I'm aware of a previous vaccine that was rushed out and had disastrous results for some.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample2&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    No, I wouldn't. The vaccine would not have been tested for long enough to know it is safe.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    No. You have to pay for the vaccine and pay me at least $500.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    What’s really in the vaccine? What are long term effects? How effective is it? What are the side effects or negative things that could happen? 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    No. I would not get the vaccine
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    We need another stimulus check !
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample2&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample2&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Wait for a while (23 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    There is very low risk of me contracting Covid in my small, rural town. I am healthy, so there is very low risk of a Covid infection negatively impacting my health. I will wait a year or two until it has been proven safe and effective in real world use. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would consider it, but only after it has been proven safe. It would take a while to study the vaccine to know it's safety.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would wait a little bit until the vaccine has been out to make sure everything goes okay, then once it has been proven effective I would get it.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample3&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I'd want to know long term side effects - a year or more down the line - before I made a decision.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would get the vaccine, but would not be one of the first to do so. I would want to wait to make sure that it is safe.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would wait until I am sure the vaccine is safe and effective, that is others have taken it and are okay. I won't be first in line.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will probably wait a little while, but not too long. Just long enough to get a sense that it is safe.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would want to get the vaccine, but wait to see the side effects and until it has been out a while.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample3&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample3&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Unknown (17 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    It depends on the scientific data and consensus backing the efficacy and more importantly, safety of the vaccine. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;55 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will believe health practitioner if they are the one who recognized it for the masses  
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;44 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Even with a vaccine, still continue practicing good and healthy hygiene habits.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;22 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample4&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    use properly very safe it 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Its welcome stuff., but i dont really think i need it. At least not for now. Am still yet to trust new vaccines like this
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will get the vaccine once it has been tests using the proper methods and trials AND when I’m assured that its approval has not been influenced by politics, money, etc.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    let the WHO test it
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    If Mr president support it I accept it
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;15 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample4&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample4&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Yes, if it is ensured to be safe (49 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will get the vaccine as soon as there is one available that is proven to be effective and safe. Until then, keep wearing masks and maintaining distance.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;29 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would get it if it is proven to be safe. I think it is patriotic and everyone's responsibility to help stop the spread of the virus.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I will get it after it has cleared all clinical trials and it has been extensively tested. 
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;25 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample5&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Once the studies are completed and the vaccine[s] is/are verified as safe, I will get it/them as quickly as I can.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;25 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would get the vaccine if it is proven safe. I am high risk and want to be protected.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;24 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Everyone would as long as it is safe
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;24 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Yes, as long as it is proven reasonably safe I would eventually get it.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    I would be willing to get the COVID-19 vaccine if it was proven safe. But I believe it will be rushed to appease the public and ease tensions.
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample5&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample5&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+  Not directly related to vaccine (59 posts)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    were mask when ever you go outside
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    it is the main area we could know our strength
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    i am just waiting to go for out and just want to talk people freely
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;22 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample6&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    i was stunned foe each and keep distance and i use mask avoid the covid 19 in cautious and safe themselved
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;22 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Most people have no idea how #vaccines go from idea to syringe. What questions do you have about vaccine development?
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    Covid 19 very dangerous disease
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    the very thinking and good all the people is very sad
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;20 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+    good think about the pandemic situation
+    &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;20 likes&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample6&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample6&quot;&gt;
+    See more
+  &lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 21 Oct 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/COVIDvaccine/</link>
+        <guid isPermaLink="true">http://localhost:4000/COVIDvaccine/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2020 US Presidential Election (Sep.)</title>
+        <description>&lt;p&gt;The first Presidential Debate for 2020 US Presidential Election took place on Sep. 29th.&lt;/p&gt;
+
+&lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h4&gt;What is the most important issue to you personally in the upcoming election?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Using our open-ened survey system, we have conducted a poll from Sep. 30th to Oct. 2nd. 
+We recruited 881 respondents through Amazon Mechanical Turk &lt;sup id=&quot;fnref:0&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:0&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;response-patterns&quot;&gt;Response patterns&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020USpresident/population_matrix.png&quot; alt=&quot;fig_popularity&quot; style=&quot;   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this poll, we identified three statistically distinct respondents groups &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. 
+Each row in the above table represents an opinion group and each column represents a respondent group. 
+The value in a cell is the fraction (in percentage) of “Likes,” which is normalized within each column. 
+You can find the list of actual opinion texts at the bottom of this post.&lt;/p&gt;
+
+&lt;p&gt;The fractions of &lt;strong&gt;&lt;em&gt;Economy&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Healthcare&lt;/em&gt;&lt;/strong&gt; are high in every respondent group. 
+We found several other topics and categorized them as the opinion groups &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;; many of them are related to recent unprecedented events such as COVID-19, wildfire, Black lives matter issues, and death of Ruth Bader Ginsburg. 
+The three respondent groups have different response patterns for these topics.&lt;/p&gt;
+
+&lt;p&gt;It is evident that respondent group B is characterized by &lt;strong&gt;&lt;em&gt;Support Biden, Never Trump&lt;/em&gt;&lt;/strong&gt;. 
+In contrast, we can hardly conclude that groups A and C are Trump supporters. 
+The fact that the fractions of &lt;strong&gt;&lt;em&gt;Support Trump&lt;/em&gt;&lt;/strong&gt; are 5.2% and 2.3% in these groups indicates that this is not their major issue; note that this result does not implies that there are not so many Trump supporters or Joe Biden is in the lead. 
+The population of each respondent group is shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Population of the respondent groups&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020USpresident/respondent_population.png&quot; alt=&quot;fig_group_size&quot; style=&quot;   width: 400px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The acutal opinion texts of each category are listed below. 
+Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;, we only show few of them that earned many “Likes.”&lt;/p&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Kindness&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Love and unity
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;27 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Be kind.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;27 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Kindness, compassion, and decency. I'd like for there to be more important things to the administration than their own power and income.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Climate change&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Taking action on climate change
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;67 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Pass laws that address climate change by reducing the use of fossil fuels and encouraging the use of alternative energy sources 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;61 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Climate Change
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;56 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Other responses&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      eliminating world wide corruption
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;90 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Basic human decency.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;64 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      No new wars, reigning in the riots, removing anti-white and anti-American propaganda from schools ending all COVID lockdowns/stay at home orders, stopping Democrat politicians from imposing open-ended unconstitutional limitations on American citizens.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;45 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Review and rewrite outdated laws and their process. 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;30 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      We have had Democratic presidents and Republican presidents. The country always survives no matter who is in power.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;28 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;COVID-19&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      COVID-19 GOING TO DO THE ALL EFFECTS IN ELECTION. WE NEED TO WAIT AND SEE IT
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;110 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      The COIVD virus. Slowing the spread and saving lives. And the economy
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;98 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      How covid 19 influences job market.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;97 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Support Biden/Never Trump&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Having a functional adult in office
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;75 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Biden earned a reputation for being a &quot;drug warrior&quot;, leading efforts in the war on drugs
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;65 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Who else believes that Donald tRump is a narcissist?
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;64 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Getting sanity and professionalism back into the White House and leading our country once again
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;63 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I support Biden for president. 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;62 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Healthcare&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I want to see healthcare become more affordable and that is available to everyone. No person should go bankrupt because of healthcare bills. 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;84 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Universal Healthcare
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;71 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Medicare for all
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;70 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Economy&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Universal Basic Income so people can breathe and stop living paycheck to paycheck in fear that if 1 little thing happens you lose it all
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;63 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Economy and jobs
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;55 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Protect the working middle class
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;55 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Student debt crisis.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;54 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Black lives matter&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Stopping police murders and brutality toward Black people
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;44 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Stopping environmental racism
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;43 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Electing people who will respect our constitution and the values that REALLY make our nation great, instead of the bigotry and hatred espoused by white supremacists.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;43 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I think race issues are the biggest problem right now.  It's become ridiculous all these people protesting, rioting, etc over two people who were involved in criminal activity.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;40 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Aptitude as the president&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Taking a step back and seeing the destruction of mankind in its self by the very ones who think they are upholding good values for the nation 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;51 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Bringing people into office who prioritize what is best for the nation as a whole, instead of just an elite few.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;41 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I believe that the president should be able to lead the nation out of hardship.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;41 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Violence&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Safety for myself and family.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;83 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      right wing violence
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;79 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Violence in America
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;75 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Support Trump&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I want to see our country continue in the right direction and love on the people inside it’s borders
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;28 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Trump 2020
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      I support Trump for president. 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;LGBT rights&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Keeping and expanding on the rights for LGBT+ people, please do not take away my right to marry.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;88 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Rights and protections for LGBT+ individuals, stopping the epidemic of violence against trans people
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;76 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Women's rights&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Women's rights and their right to choose, keep abortion safe and legal.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;79 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Overturning Roe v. Wade
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;75 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Women's reproductive rights (easier and more affordable access to feminine hygiene products, revised abortion laws, etc.)
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;72 likes&lt;/span&gt;
+    &lt;/li&gt;    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Democracy&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Saving our democracy.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;65 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Protect, preserve and expand where needed any and all issues which would threaten DEMOCRACY and each and every citizen's rights within said Democracy.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;59 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Immigration&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Abolishing ICE and ensuring safe asylum for refugees and others
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;54 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      10 year moratorium on legal immigration
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;53 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      illegal immigration 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;51 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;Fascism&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Respecting Law and Order, denouncing ANTIFA
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;54 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Stopping America's descent into fascism
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;46 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &quot;2nd amendment&quot;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      2nd amendment 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;67 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      2nd amendment AND 1ST ADMENDMENT!!!! 
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;59 likes&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;
+      Defending the right to keep and bear arms.
+      &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;49 likes&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- ## 分析手法
+- Non-negative matrix factorization (no annotations, no manual post-processing)
+ --&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:0&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Disclaimer: The results here may not be accurate. Moreover, it is possible that the results presented here may be update in the future. &lt;a href=&quot;#fnref:0&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;There is no initially prepared opinions in this poll. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We put annotations on most of the opinions, and utilized them in graph clustering. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We have excluded invalid opinions. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 06 Oct 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/USpresidentSep/</link>
+        <guid isPermaLink="true">http://localhost:4000/USpresidentSep/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2016 US Presidential Election</title>
+        <description>&lt;p&gt;This is a survey that we conducted 4 years ago for the US presidential election. 
+Most of the responses were collected at the site of Presidential Debate (University of Nevada).&lt;/p&gt;
+
+&lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h4&gt;Q: #NeverHillary or #NeverTrump ?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016USpresident/network_USpresident2016_bonsci_n_clusters=3.png&quot; alt=&quot;opinion_graph_2016USPresident&quot; style=&quot;   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
+
+&lt;!-- &lt;div id=&quot;USPresidentialElection2016_respondents&quot; style=&quot;width: 450px; height: 250px;&quot;&gt;&lt;/div&gt;  --&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    Group A (featured)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary Clinton doesn't care about BlackLives She only cares about BlackVotes
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;27 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		At this moment I think both of them have many problem with conducting the country
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;21 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		She’s a criminal． She does not deserve to hold office． Trump just has a loud mouth． Hillary will destroy the country．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		She's a liar and should buy Glennbeck's new book
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;12 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleA&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary is a liar． Period
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;8 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I believe that both are incapable of running this country．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;6 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary should go to jail．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		There are faults from both, but my thinking leans towards Trump． Mainly due to his ideals of guiding leadership．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Calling millions of Americans a basket of deplorables is frightening, hearing this makes her Negroponte endorsement make sense．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;/div&gt;
+	&lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExampleA&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExampleA&quot;&gt;
+	See more
+	&lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    Group B (featured)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary has such an impressive history of working for us all!
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;45 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;32 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		She believes America is already great and will improve it even more!
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Trump would be a disaster to the Japan-Us alliance．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleB&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary, because she's got unparalleled leadership and political experience． She's able to take a stand but can also compromise．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I'm with her because she is the most pro-science and intellectual candidate．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Only one choice． I can't believe Trump．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Hillary knows how it works．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I feel America needs a leader that believes in America and its dream
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;/div&gt;
+	&lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExampleB&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExampleB&quot;&gt;
+	See more
+	&lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    Group C (featured)
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Donald Trump is a sham． He is only interested in his own popularity and power, and is a sexist, racist liar．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;24 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I am against Trump because he doesn't seem to have the  emotional stability required from someone that can launch nuclear weapons．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I am not a HillaryClinton fan, but I hope she's okay．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleC&quot;&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I think he doesn't have the minimal level of knowledge required to be capable of running a country．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Trump repeatedly claimed he has &quot;a foolproof way of winning the war with ISIS．&quot; How many will have to die before he shares it?
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		NeverTrump bc public persona of cruelty and predatory business practices, and a campaign conjuring xenophobia to answer with empty slogans．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		America can't be compromised by leaders with conflicting loyalties．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		Never Trump Or Hillary!Neither are trustworthy or capable of transparent presidency promoting peace prosperity &amp;amp; freedom．Im W/ Gary Johnson．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I'm not with her． I feel the bern． But we are stronger together
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;list-group-item&quot;&gt;
+		I believe we need to break out of a two-party election．
+		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
+	&lt;/li&gt;
+	&lt;/div&gt;
+	&lt;button class=&quot;btn btn-light btn-block&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExampleC&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExampleC&quot;&gt;
+	See more
+	&lt;/button&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+	* Opinions with less than 4 likes are omitted.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;methods&quot;&gt;Methods&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clustering algorithm : &lt;a href=&quot;https://github.com/tatsuro-kawamoto/graphBIX&quot;&gt;EM algorithm based on the labeled stochastic block model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 23 Aug 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/PresidentialElection2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/PresidentialElection2016/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
