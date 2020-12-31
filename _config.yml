@@ -9,47 +9,47 @@
 title: Aska
 email: request@aska.systems
 description: > # this means to ignore newlines until "baseurl:"
-  A graph-based open-ended survey framework.
+  An opinion-sharing platform
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https:ask-a.org/" # the base hostname & protocol for your site
+url: "https://aska.systems" # the base hostname & protocol for your site
 
 #sidebar
 default-image: vc-log-big.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
 
 #footer
 
-built-by: Aska
+built-by: Aska project team
 
 copyright:
-   name: Aska project
-   link: 'https://ask-a.org'
+   name: Aska project team
+   link: 'https://aska.systems'
 
 # Build settings
 markdown: kramdown
 permalink: /:title/
-paginate: 6
-paginate_path: /page:num/
+paginate: 9
+paginate_path: gallery/page:num/
 
 # Tracker
-analytics: UA-84952435-1
+analytics: 84952435
 
 # Comments
 disqus: no
 disqus-shortname: 
 
 #social
-facebook: https://www.facebook.com/Aska-project-110163710806712/
+facebook: http://facebook.com/Aska.systems.jp/
 #quora: http://quora.com/
-twitter: 
+twitter: http://twitter.com/Aska_systems_jp/
 #github: http://github.com/
 email: request@aska.systems
 
 #facebook like box
 fb-like-box: yes
-fb-app-id: 110163710806712
-fb-page-url: https://www.facebook.com/Aska-project-110163710806712/
-fb-page-title: Aska-project
+fb-app-id: 423248648569702
+fb-page-url: https://www.facebook.com/Aska.systems.jp/
+fb-page-title: Aska.systems.jp
 
 # Sass style
 sass:

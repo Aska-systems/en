@@ -1,0 +1,176 @@
+I"H<p>This is a survey that we conducted 4 years ago for the US presidential election. 
+Most of the responses were collected at the site of Presidential Debate (University of Nevada).</p>
+
+<div class="jumbotron">
+  <h4>Q: #NeverHillary or #NeverTrump ?</h4>
+</div>
+
+<p><img src="/images/2016USpresident/network_USpresident2016_bonsci_n_clusters=3.png" alt="opinion_graph_2016USPresident" style="   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; " /></p>
+
+<!-- <div id="USPresidentialElection2016_respondents" style="width: 450px; height: 250px;"></div>  -->
+
+<div class="card">
+  <div class="card-header">
+    Group A (featured)
+  </div>
+  <ul class="list-group list-group-flush">
+	<li class="list-group-item">
+		Hillary Clinton doesn't care about BlackLives She only cares about BlackVotes
+		<br /><span class="badge badge-dark">27 likes</span>
+	</li>
+	<li class="list-group-item">
+		At this moment I think both of them have many problem with conducting the country
+		<br /><span class="badge badge-dark">21 likes</span>
+	</li>
+	<li class="list-group-item">
+		She’s a criminal． She does not deserve to hold office． Trump just has a loud mouth． Hillary will destroy the country．
+		<br /><span class="badge badge-dark">17 likes</span>
+	</li>
+	<li class="list-group-item">
+		She's a liar and should buy Glennbeck's new book
+		<br /><span class="badge badge-dark">12 likes</span>
+	</li>
+	<div class="collapse" id="collapseExampleA">
+	<li class="list-group-item">
+		Hillary is a liar． Period
+		<br /><span class="badge badge-dark">8 likes</span>
+	</li>
+	<li class="list-group-item">
+		I believe that both are incapable of running this country．
+		<br /><span class="badge badge-dark">6 likes</span>
+	</li>
+	<li class="list-group-item">
+		Hillary should go to jail．
+		<br /><span class="badge badge-dark">5 likes</span>
+	</li>
+	<li class="list-group-item">
+		There are faults from both, but my thinking leans towards Trump． Mainly due to his ideals of guiding leadership．
+		<br /><span class="badge badge-dark">5 likes</span>
+	</li>
+	<li class="list-group-item">
+		Calling millions of Americans a basket of deplorables is frightening, hearing this makes her Negroponte endorsement make sense．
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	</div>
+	<button class="btn btn-light btn-block" type="button" data-toggle="collapse" data-target="#collapseExampleA" aria-expanded="false" aria-controls="collapseExampleA">
+	See more
+	</button>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    Group B (featured)
+  </div>
+  <ul class="list-group list-group-flush">
+	<li class="list-group-item">
+		Hillary has such an impressive history of working for us all!
+		<br /><span class="badge badge-dark">45 likes</span>
+	</li>
+	<li class="list-group-item">
+		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		<br /><span class="badge badge-dark">32 likes</span>
+	</li>
+	<li class="list-group-item">
+		She believes America is already great and will improve it even more!
+		<br /><span class="badge badge-dark">10 likes</span>
+	</li>
+	<li class="list-group-item">
+		Trump would be a disaster to the Japan-Us alliance．
+		<br /><span class="badge badge-dark">10 likes</span>
+	</li>
+	<div class="collapse" id="collapseExampleB">
+	<li class="list-group-item">
+		Hillary, because she's got unparalleled leadership and political experience． She's able to take a stand but can also compromise．
+		<br /><span class="badge badge-dark">5 likes</span>
+	</li>
+	<li class="list-group-item">
+		I'm with her because she is the most pro-science and intellectual candidate．
+		<br /><span class="badge badge-dark">5 likes</span>
+	</li>
+	<li class="list-group-item">
+		Only one choice． I can't believe Trump．
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	<li class="list-group-item">
+		Hillary knows how it works．
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	<li class="list-group-item">
+		I feel America needs a leader that believes in America and its dream
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	</div>
+	<button class="btn btn-light btn-block" type="button" data-toggle="collapse" data-target="#collapseExampleB" aria-expanded="false" aria-controls="collapseExampleB">
+	See more
+	</button>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    Group C (featured)
+  </div>
+  <ul class="list-group list-group-flush">
+	<li class="list-group-item">
+		Donald Trump is a sham． He is only interested in his own popularity and power, and is a sexist, racist liar．
+		<br /><span class="badge badge-dark">26 likes</span>
+	</li>
+	<li class="list-group-item">
+		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		<br /><span class="badge badge-dark">24 likes</span>
+	</li>
+	<li class="list-group-item">
+		I am against Trump because he doesn't seem to have the  emotional stability required from someone that can launch nuclear weapons．
+		<br /><span class="badge badge-dark">19 likes</span>
+	</li>
+	<li class="list-group-item">
+		I am not a HillaryClinton fan, but I hope she's okay．
+		<br /><span class="badge badge-dark">18 likes</span>
+	</li>
+	<div class="collapse" id="collapseExampleC">
+	<li class="list-group-item">
+		I think he doesn't have the minimal level of knowledge required to be capable of running a country．
+		<br /><span class="badge badge-dark">11 likes</span>
+	</li>
+	<li class="list-group-item">
+		Trump repeatedly claimed he has "a foolproof way of winning the war with ISIS．" How many will have to die before he shares it?
+		<br /><span class="badge badge-dark">10 likes</span>
+	</li>
+	<li class="list-group-item">
+		NeverTrump bc public persona of cruelty and predatory business practices, and a campaign conjuring xenophobia to answer with empty slogans．
+		<br /><span class="badge badge-dark">10 likes</span>
+	</li>
+	<li class="list-group-item">
+		America can't be compromised by leaders with conflicting loyalties．
+		<br /><span class="badge badge-dark">9 likes</span>
+	</li>
+	<li class="list-group-item">
+		Never Trump Or Hillary!Neither are trustworthy or capable of transparent presidency promoting peace prosperity &amp; freedom．Im W/ Gary Johnson．
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	<li class="list-group-item">
+		I'm not with her． I feel the bern． But we are stronger together
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	<li class="list-group-item">
+		I believe we need to break out of a two-party election．
+		<br /><span class="badge badge-dark">4 likes</span>
+	</li>
+	</div>
+	<button class="btn btn-light btn-block" type="button" data-toggle="collapse" data-target="#collapseExampleC" aria-expanded="false" aria-controls="collapseExampleC">
+	See more
+	</button>
+  </ul>
+</div>
+
+<p>
+	* Opinions with less than 4 likes are omitted.
+</p>
+
+<h2 id="methods">Methods</h2>
+<ul>
+  <li>Clustering algorithm : <a href="https://github.com/tatsuro-kawamoto/graphBIX">EM algorithm based on the labeled stochastic block model</a></li>
+</ul>
+
+:ET

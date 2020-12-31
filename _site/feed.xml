@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aska</title>
-    <description>A graph-based open-ended survey framework.
+    <description>An opinion-sharing platform
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2020 11:32:05 +0900</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2020 11:32:05 +0900</lastBuildDate>
+    <pubDate>Thu, 31 Dec 2020 17:11:51 +0900</pubDate>
+    <lastBuildDate>Thu, 31 Dec 2020 17:11:51 +0900</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -60,11 +60,13 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/2020USpresident/October/linear_palette_diagram.png&quot; alt=&quot;fig_group_size&quot; style=&quot;   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The above circular/linear palette diagrams show the response pattern of each respondent; the respondents are aligned azimuthally/horizontally, and their response patterns are shown radially/vertically (see &lt;a href=&quot;https://github.com/palette-diagram/palette-diagram&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for more details about the palette diagrams).&lt;/p&gt;
+&lt;p&gt;The above circular/linear palette diagrams show the response pattern of each respondent; the respondents are aligned azimuthally/horizontally, and their response patterns are shown radially/vertically. 
+The color of the most dominant group is indicated at the center of the circular palette diagram. 
+(See &lt;a href=&quot;https://github.com/palette-diagram/palette-diagram&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for more details about the palette diagrams).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Technical details&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The data has been collected through &lt;em&gt;Aska&lt;/em&gt;&lt;sup id=&quot;fnref:0&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:0&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, which generates an opinion graph as a result of a poll.&lt;/li&gt;
+  &lt;li&gt;The data has been collected through &lt;em&gt;Aska&lt;/em&gt;&lt;sup id=&quot;fnref:0&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:0&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, which generates a graph (network) as a result of a poll.&lt;/li&gt;
   &lt;li&gt;Opinions are classified into groups using graph clustering based on the response patterns&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
   &lt;li&gt;The group labels (i.e., coding) are determined by us, based on the classified opinion texts.&lt;/li&gt;
   &lt;li&gt;No annotation has been performed in the present analysis. That’s why we have groups of overlapped contents (&lt;em&gt;Economy&lt;/em&gt; and &lt;em&gt;COVID-19 &amp;amp; Economy&lt;/em&gt;) and there are few misclassified opinions.&lt;/li&gt;
@@ -328,7 +330,7 @@
       &lt;p&gt;We renamed our graph-based survey framework to &lt;em&gt;Aska&lt;/em&gt; from &lt;em&gt;voteclustering&lt;/em&gt;. &lt;a href=&quot;#fnref:0&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;You might have noticed that the opinion graph is too sparse to detect these groups. Actually, we have collected more than 278 responses and we used those extra information behind (and some other “tricks”) to achieve this resolution. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;You might have noticed that the opinion graph is too sparse to detect these groups. Actually, we have collected more than 278 responses (but with a slightly different setting) and we used those extra information behind to achieve this resolution. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
