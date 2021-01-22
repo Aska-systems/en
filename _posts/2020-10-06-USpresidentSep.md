@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2020 US Presidential Election (Sep.)"
-img: 2020USpresident/USpoll2020.jpg
+img: 2020_USpresident/USpoll2020.jpg
 ---
 
 The first Presidential Debate for 2020 US Presidential Election took place on Sep. 29th. 
@@ -20,7 +20,7 @@ We recruited 881 respondents through Amazon Mechanical Turk [^0].
 
 ## Response patterns
 
-<img src="{{site.baseurl}}/images/2020USpresident/population_matrix.png" alt="fig_popularity"
+<img src="{{site.baseurl}}/images/2020_USpresident/population_matrix.png" alt="fig_popularity"
 style = "
   width: 600px;
   border: none;
@@ -52,7 +52,7 @@ The population of each respondent group is shown below.
 
 **Population of the respondent groups**
 
-<img src="{{site.baseurl}}/images/2020USpresident/respondent_population.png" alt="fig_group_size"
+<img src="{{site.baseurl}}/images/2020_USpresident/respondent_population.png" alt="fig_group_size"
 style = "
   width: 400px;
   border: none;

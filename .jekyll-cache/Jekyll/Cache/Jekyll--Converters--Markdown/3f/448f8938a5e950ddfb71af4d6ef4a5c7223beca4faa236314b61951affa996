@@ -1,4 +1,4 @@
-I"Æ<<p>The first Presidential Debate for 2020 US Presidential Election took place on Sep. 29th.</p>
+I"∞<<p>The first Presidential Debate for 2020 US Presidential Election took place on Sep. 29th.</p>
 
 <div class="jumbotron">
   <h4>What is the most important issue to you personally in the upcoming election?</h4>
@@ -11,7 +11,7 @@ We recruited 881 respondents through Amazon Mechanical Turk <sup id="fnref:0" ro
 
 <h2 id="response-patterns">Response patterns</h2>
 
-<p><img src="/images/2020USpresident/population_matrix.png" alt="fig_popularity" style="   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; " /></p>
+<p><img src="/images/2020_USpresident/population_matrix.png" alt="fig_popularity" style="   width: 600px;   border: none;   background: none;   margin: 1% 1% 1% 1%;   text-align: center;   display: inline-block; " /></p>
 
 <p>In this poll, we identified three statistically distinct respondents groups <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">2</a></sup>. 
 Each row in the above table represents an opinion group and each column represents a respondent group. 
@@ -29,7 +29,7 @@ The population of each respondent group is shown below.</p>
 
 <p><strong>Population of the respondent groups</strong></p>
 
-<p><img src="/images/2020USpresident/respondent_population.png" alt="fig_group_size" style="   width: 400px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; " /></p>
+<p><img src="/images/2020_USpresident/respondent_population.png" alt="fig_group_size" style="   width: 400px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; " /></p>
 
 <p>The acutal opinion texts of each category are listed below. 
 Among 144 independent opinions <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">4</a></sup>, we only show few of them that earned many ‚ÄúLikes.‚Äù</p>

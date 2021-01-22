@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "COVID-19 vaccine"
-img: COVID19vaccine/covid-vaccine_survey_Thumbnail.png
+img: 2020_COVID19vaccine/covid-vaccine_survey_Thumbnail.png
 ---
 
 Are people actually willing to get a COVID-19 vaccine if it were available?
@@ -26,7 +26,7 @@ Are people actually willing to get a COVID-19 vaccine if it were available?
 
 ## Response patterns
 
-<img src="{{site.baseurl}}/images/COVID19vaccine/linear_palette_diagram.jpg" alt="fig_popularity"
+<img src="{{site.baseurl}}/images/2020_COVID19vaccine/linear_palette_diagram.jpg" alt="fig_popularity"
 style = "
   width: 700px;
   border: none;

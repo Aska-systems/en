@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2020 US Presidential Election (Oct.)"
-img: 2020USpresident/USpoll2020.jpg
+img: 2020_USpresident/USpoll2020.jpg
 ---
 
 This is a poll conducted after the last debate (Oct. 22nd) for 2020 US Presidential Election.
@@ -24,7 +24,7 @@ This is a poll conducted after the last debate (Oct. 22nd) for 2020 US President
 ## Response patterns
 **Circular palette diagram**
 
-<img src="{{site.baseurl}}/images/2020USpresident/October/circular_palette_diagram.png" alt="fig_circular_palette"
+<img src="{{site.baseurl}}/images/2020_USpresident/October/circular_palette_diagram.png" alt="fig_circular_palette"
 style = "
   width: 600px;
   border: none;
@@ -36,7 +36,7 @@ style = "
 
 **Linear palette diagram**
 
-<img src="{{site.baseurl}}/images/2020USpresident/October/linear_palette_diagram.png" alt="fig_group_size"
+<img src="{{site.baseurl}}/images/2020_USpresident/October/linear_palette_diagram.png" alt="fig_group_size"
 style = "
   width: 600px;
   border: none;
