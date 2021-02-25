@@ -4,11 +4,11 @@
     <title>Aska</title>
     <description>An opinion-sharing platform
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Feb 2021 22:18:10 +0900</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 22:18:10 +0900</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
+    <link>https://aska.systems/</link>
+    <atom:link href="https://aska.systems/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 Feb 2021 18:40:22 +0900</pubDate>
+    <lastBuildDate>Thu, 18 Feb 2021 18:40:22 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>MAGA survey</title>
@@ -33,12 +33,12 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;div&gt;                        &lt;script type=&quot;text/javascript&quot;&gt;window.PlotlyConfig = {MathJaxConfig: 'local'};&lt;/script&gt;
+&lt;div&gt;                        &lt;script type=&quot;text/javascript&quot;&gt;window.PlotlyConfig = {MathJaxConfig: &apos;local&apos;};&lt;/script&gt;
         &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;                &lt;div id=&quot;755ebe2f-82c3-476f-ac01-014807819664&quot; class=&quot;plotly-graph-div&quot; style=&quot;height:100%; width:100%;&quot;&gt;&lt;/div&gt;            &lt;script type=&quot;text/javascript&quot;&gt;                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById(&quot;755ebe2f-82c3-476f-ac01-014807819664&quot;)) {                    Plotly.newPlot(                        &quot;755ebe2f-82c3-476f-ac01-014807819664&quot;,                        [{&quot;domain&quot;: {&quot;x&quot;: [0.0, 1.0], &quot;y&quot;: [0.0, 1.0]}, &quot;hole&quot;: 0.5, &quot;hovertemplate&quot;: &quot;choice=%{label}&lt;br&gt;Count=%{value}&lt;extra&gt;&lt;/extra&gt;&quot;, &quot;labels&quot;: [&quot;I did not vote for anyone in both elections&quot;, &quot;No, I have never voted for Trump&quot;, &quot;Yes, both in 2016 and 2020&quot;, &quot;Yes, only in 2016&quot;, &quot;Yes, only in 2020&quot;], &quot;legendgroup&quot;: &quot;&quot;, &quot;name&quot;: &quot;&quot;, &quot;showlegend&quot;: true, &quot;type&quot;: &quot;pie&quot;, &quot;values&quot;: [26, 144, 61, 27, 13]}],                        {&quot;legend&quot;: {&quot;tracegroupgap&quot;: 0}, &quot;template&quot;: {&quot;data&quot;: {&quot;bar&quot;: [{&quot;error_x&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;error_y&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;marker&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#E5ECF6&quot;, &quot;width&quot;: 0.5}}, &quot;type&quot;: &quot;bar&quot;}], &quot;barpolar&quot;: [{&quot;marker&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#E5ECF6&quot;, &quot;width&quot;: 0.5}}, &quot;type&quot;: &quot;barpolar&quot;}], &quot;carpet&quot;: [{&quot;aaxis&quot;: {&quot;endlinecolor&quot;: &quot;#2a3f5f&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;minorgridcolor&quot;: &quot;white&quot;, &quot;startlinecolor&quot;: &quot;#2a3f5f&quot;}, &quot;baxis&quot;: {&quot;endlinecolor&quot;: &quot;#2a3f5f&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;minorgridcolor&quot;: &quot;white&quot;, &quot;startlinecolor&quot;: &quot;#2a3f5f&quot;}, &quot;type&quot;: &quot;carpet&quot;}], &quot;choropleth&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;choropleth&quot;}], &quot;contour&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;contour&quot;}], &quot;contourcarpet&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;contourcarpet&quot;}], &quot;heatmap&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;heatmap&quot;}], &quot;heatmapgl&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;heatmapgl&quot;}], &quot;histogram&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;histogram&quot;}], &quot;histogram2d&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;histogram2d&quot;}], &quot;histogram2dcontour&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;histogram2dcontour&quot;}], &quot;mesh3d&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;mesh3d&quot;}], &quot;parcoords&quot;: [{&quot;line&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;parcoords&quot;}], &quot;pie&quot;: [{&quot;automargin&quot;: true, &quot;type&quot;: &quot;pie&quot;}], &quot;scatter&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatter&quot;}], &quot;scatter3d&quot;: [{&quot;line&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatter3d&quot;}], &quot;scattercarpet&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattercarpet&quot;}], &quot;scattergeo&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattergeo&quot;}], &quot;scattergl&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattergl&quot;}], &quot;scattermapbox&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattermapbox&quot;}], &quot;scatterpolar&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterpolar&quot;}], &quot;scatterpolargl&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterpolargl&quot;}], &quot;scatterternary&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterternary&quot;}], &quot;surface&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;surface&quot;}], &quot;table&quot;: [{&quot;cells&quot;: {&quot;fill&quot;: {&quot;color&quot;: &quot;#EBF0F8&quot;}, &quot;line&quot;: {&quot;color&quot;: &quot;white&quot;}}, &quot;header&quot;: {&quot;fill&quot;: {&quot;color&quot;: &quot;#C8D4E3&quot;}, &quot;line&quot;: {&quot;color&quot;: &quot;white&quot;}}, &quot;type&quot;: &quot;table&quot;}]}, &quot;layout&quot;: {&quot;annotationdefaults&quot;: {&quot;arrowcolor&quot;: &quot;#2a3f5f&quot;, &quot;arrowhead&quot;: 0, &quot;arrowwidth&quot;: 1}, &quot;autotypenumbers&quot;: &quot;strict&quot;, &quot;coloraxis&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;colorscale&quot;: {&quot;diverging&quot;: [[0, &quot;#8e0152&quot;], [0.1, &quot;#c51b7d&quot;], [0.2, &quot;#de77ae&quot;], [0.3, &quot;#f1b6da&quot;], [0.4, &quot;#fde0ef&quot;], [0.5, &quot;#f7f7f7&quot;], [0.6, &quot;#e6f5d0&quot;], [0.7, &quot;#b8e186&quot;], [0.8, &quot;#7fbc41&quot;], [0.9, &quot;#4d9221&quot;], [1, &quot;#276419&quot;]], &quot;sequential&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;sequentialminus&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]]}, &quot;colorway&quot;: [&quot;#636efa&quot;, &quot;#EF553B&quot;, &quot;#00cc96&quot;, &quot;#ab63fa&quot;, &quot;#FFA15A&quot;, &quot;#19d3f3&quot;, &quot;#FF6692&quot;, &quot;#B6E880&quot;, &quot;#FF97FF&quot;, &quot;#FECB52&quot;], &quot;font&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;geo&quot;: {&quot;bgcolor&quot;: &quot;white&quot;, &quot;lakecolor&quot;: &quot;white&quot;, &quot;landcolor&quot;: &quot;#E5ECF6&quot;, &quot;showlakes&quot;: true, &quot;showland&quot;: true, &quot;subunitcolor&quot;: &quot;white&quot;}, &quot;hoverlabel&quot;: {&quot;align&quot;: &quot;left&quot;}, &quot;hovermode&quot;: &quot;closest&quot;, &quot;mapbox&quot;: {&quot;style&quot;: &quot;light&quot;}, &quot;paper_bgcolor&quot;: &quot;white&quot;, &quot;plot_bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;polar&quot;: {&quot;angularaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;radialaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}}, &quot;scene&quot;: {&quot;xaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}, &quot;yaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}, &quot;zaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}}, &quot;shapedefaults&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}}, &quot;ternary&quot;: {&quot;aaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;baxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;caxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}}, &quot;title&quot;: {&quot;x&quot;: 0.05}, &quot;xaxis&quot;: {&quot;automargin&quot;: true, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;, &quot;title&quot;: {&quot;standoff&quot;: 15}, &quot;zerolinecolor&quot;: &quot;white&quot;, &quot;zerolinewidth&quot;: 2}, &quot;yaxis&quot;: {&quot;automargin&quot;: true, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;, &quot;title&quot;: {&quot;standoff&quot;: 15}, &quot;zerolinecolor&quot;: &quot;white&quot;, &quot;zerolinewidth&quot;: 2}}}, &quot;title&quot;: {&quot;text&quot;: &quot;Q2. Did you vote for Donald Trump in the 2016 and/or 2020 elections?&quot;}},                        {&quot;responsive&quot;: true}                    )                };                            &lt;/script&gt;        &lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2021_MAGA/popularity_matrix.jpg&quot; alt=&quot;fig_popularity&quot; style=&quot;   width: 400px;   border: none;   background: none;   margin: 1% 1% 1% 10%;   text-align: center;   display: inline-block; &quot; /&gt;&lt;/p&gt;
 
-&lt;div&gt;                        &lt;script type=&quot;text/javascript&quot;&gt;window.PlotlyConfig = {MathJaxConfig: 'local'};&lt;/script&gt;
+&lt;div&gt;                        &lt;script type=&quot;text/javascript&quot;&gt;window.PlotlyConfig = {MathJaxConfig: &apos;local&apos;};&lt;/script&gt;
         &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;                &lt;div id=&quot;ead432b4-85ae-4336-bc42-0f9930d475ce&quot; class=&quot;plotly-graph-div&quot; style=&quot;height:600px; width:700px;&quot;&gt;&lt;/div&gt;            &lt;script type=&quot;text/javascript&quot;&gt;                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById(&quot;ead432b4-85ae-4336-bc42-0f9930d475ce&quot;)) {                    Plotly.newPlot(                        &quot;ead432b4-85ae-4336-bc42-0f9930d475ce&quot;,                        [{&quot;hovertemplate&quot;: &quot;Opinion=Biden supporters&lt;br&gt;Population ratio=%{x}&lt;br&gt;Did you vote for Donald Trump in the 2016 and/or 2020 elections?=%{y}&lt;extra&gt;&lt;/extra&gt;&quot;, &quot;legendgroup&quot;: &quot;Biden supporters&quot;, &quot;marker&quot;: {&quot;color&quot;: &quot;rgba(0,0,128,0.95)&quot;, &quot;line&quot;: {&quot;width&quot;: 0}, &quot;size&quot;: 16, &quot;symbol&quot;: &quot;circle&quot;}, &quot;mode&quot;: &quot;markers&quot;, &quot;name&quot;: &quot;Biden supporters&quot;, &quot;orientation&quot;: &quot;h&quot;, &quot;showlegend&quot;: true, &quot;type&quot;: &quot;scatter&quot;, &quot;x&quot;: [0.42, 0.84, 0.18, 0.41, 0.38], &quot;xaxis&quot;: &quot;x&quot;, &quot;y&quot;: [&quot;I did not vote for anyone in both elections&quot;, &quot;No, I have never voted for Trump&quot;, &quot;Yes, both in 2016 and 2020&quot;, &quot;Yes, only in 2016&quot;, &quot;Yes, only in 2020&quot;], &quot;yaxis&quot;: &quot;y&quot;}, {&quot;hovertemplate&quot;: &quot;Opinion=Neither&lt;br&gt;Population ratio=%{x}&lt;br&gt;Did you vote for Donald Trump in the 2016 and/or 2020 elections?=%{y}&lt;extra&gt;&lt;/extra&gt;&quot;, &quot;legendgroup&quot;: &quot;Neither&quot;, &quot;marker&quot;: {&quot;color&quot;: &quot;rgba(204, 204, 204, 0.95)&quot;, &quot;line&quot;: {&quot;width&quot;: 0}, &quot;size&quot;: 16, &quot;symbol&quot;: &quot;circle&quot;}, &quot;mode&quot;: &quot;markers&quot;, &quot;name&quot;: &quot;Neither&quot;, &quot;orientation&quot;: &quot;h&quot;, &quot;showlegend&quot;: true, &quot;type&quot;: &quot;scatter&quot;, &quot;x&quot;: [0.35, 0.13, 0.23, 0.48, 0.23], &quot;xaxis&quot;: &quot;x&quot;, &quot;y&quot;: [&quot;I did not vote for anyone in both elections&quot;, &quot;No, I have never voted for Trump&quot;, &quot;Yes, both in 2016 and 2020&quot;, &quot;Yes, only in 2016&quot;, &quot;Yes, only in 2020&quot;], &quot;yaxis&quot;: &quot;y&quot;}, {&quot;hovertemplate&quot;: &quot;Opinion=Trump supporters&lt;br&gt;Population ratio=%{x}&lt;br&gt;Did you vote for Donald Trump in the 2016 and/or 2020 elections?=%{y}&lt;extra&gt;&lt;/extra&gt;&quot;, &quot;legendgroup&quot;: &quot;Trump supporters&quot;, &quot;marker&quot;: {&quot;color&quot;: &quot;rgba(153,0,0,0.95)&quot;, &quot;line&quot;: {&quot;width&quot;: 0}, &quot;size&quot;: 16, &quot;symbol&quot;: &quot;circle&quot;}, &quot;mode&quot;: &quot;markers&quot;, &quot;name&quot;: &quot;Trump supporters&quot;, &quot;orientation&quot;: &quot;h&quot;, &quot;showlegend&quot;: true, &quot;type&quot;: &quot;scatter&quot;, &quot;x&quot;: [0.23, 0.03, 0.58, 0.11, 0.38], &quot;xaxis&quot;: &quot;x&quot;, &quot;y&quot;: [&quot;I did not vote for anyone in both elections&quot;, &quot;No, I have never voted for Trump&quot;, &quot;Yes, both in 2016 and 2020&quot;, &quot;Yes, only in 2016&quot;, &quot;Yes, only in 2020&quot;], &quot;yaxis&quot;: &quot;y&quot;}],                        {&quot;height&quot;: 600, &quot;hovermode&quot;: &quot;closest&quot;, &quot;legend&quot;: {&quot;title&quot;: {&quot;text&quot;: &quot;Opinion&quot;}, &quot;tracegroupgap&quot;: 0}, &quot;margin&quot;: {&quot;t&quot;: 60}, &quot;paper_bgcolor&quot;: &quot;white&quot;, &quot;plot_bgcolor&quot;: &quot;white&quot;, &quot;template&quot;: {&quot;data&quot;: {&quot;bar&quot;: [{&quot;error_x&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;error_y&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;marker&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#E5ECF6&quot;, &quot;width&quot;: 0.5}}, &quot;type&quot;: &quot;bar&quot;}], &quot;barpolar&quot;: [{&quot;marker&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#E5ECF6&quot;, &quot;width&quot;: 0.5}}, &quot;type&quot;: &quot;barpolar&quot;}], &quot;carpet&quot;: [{&quot;aaxis&quot;: {&quot;endlinecolor&quot;: &quot;#2a3f5f&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;minorgridcolor&quot;: &quot;white&quot;, &quot;startlinecolor&quot;: &quot;#2a3f5f&quot;}, &quot;baxis&quot;: {&quot;endlinecolor&quot;: &quot;#2a3f5f&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;minorgridcolor&quot;: &quot;white&quot;, &quot;startlinecolor&quot;: &quot;#2a3f5f&quot;}, &quot;type&quot;: &quot;carpet&quot;}], &quot;choropleth&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;choropleth&quot;}], &quot;contour&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;contour&quot;}], &quot;contourcarpet&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;contourcarpet&quot;}], &quot;heatmap&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;heatmap&quot;}], &quot;heatmapgl&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;heatmapgl&quot;}], &quot;histogram&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;histogram&quot;}], &quot;histogram2d&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;histogram2d&quot;}], &quot;histogram2dcontour&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;histogram2dcontour&quot;}], &quot;mesh3d&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;type&quot;: &quot;mesh3d&quot;}], &quot;parcoords&quot;: [{&quot;line&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;parcoords&quot;}], &quot;pie&quot;: [{&quot;automargin&quot;: true, &quot;type&quot;: &quot;pie&quot;}], &quot;scatter&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatter&quot;}], &quot;scatter3d&quot;: [{&quot;line&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatter3d&quot;}], &quot;scattercarpet&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattercarpet&quot;}], &quot;scattergeo&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattergeo&quot;}], &quot;scattergl&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattergl&quot;}], &quot;scattermapbox&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scattermapbox&quot;}], &quot;scatterpolar&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterpolar&quot;}], &quot;scatterpolargl&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterpolargl&quot;}], &quot;scatterternary&quot;: [{&quot;marker&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;type&quot;: &quot;scatterternary&quot;}], &quot;surface&quot;: [{&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}, &quot;colorscale&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;type&quot;: &quot;surface&quot;}], &quot;table&quot;: [{&quot;cells&quot;: {&quot;fill&quot;: {&quot;color&quot;: &quot;#EBF0F8&quot;}, &quot;line&quot;: {&quot;color&quot;: &quot;white&quot;}}, &quot;header&quot;: {&quot;fill&quot;: {&quot;color&quot;: &quot;#C8D4E3&quot;}, &quot;line&quot;: {&quot;color&quot;: &quot;white&quot;}}, &quot;type&quot;: &quot;table&quot;}]}, &quot;layout&quot;: {&quot;annotationdefaults&quot;: {&quot;arrowcolor&quot;: &quot;#2a3f5f&quot;, &quot;arrowhead&quot;: 0, &quot;arrowwidth&quot;: 1}, &quot;autotypenumbers&quot;: &quot;strict&quot;, &quot;coloraxis&quot;: {&quot;colorbar&quot;: {&quot;outlinewidth&quot;: 0, &quot;ticks&quot;: &quot;&quot;}}, &quot;colorscale&quot;: {&quot;diverging&quot;: [[0, &quot;#8e0152&quot;], [0.1, &quot;#c51b7d&quot;], [0.2, &quot;#de77ae&quot;], [0.3, &quot;#f1b6da&quot;], [0.4, &quot;#fde0ef&quot;], [0.5, &quot;#f7f7f7&quot;], [0.6, &quot;#e6f5d0&quot;], [0.7, &quot;#b8e186&quot;], [0.8, &quot;#7fbc41&quot;], [0.9, &quot;#4d9221&quot;], [1, &quot;#276419&quot;]], &quot;sequential&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]], &quot;sequentialminus&quot;: [[0.0, &quot;#0d0887&quot;], [0.1111111111111111, &quot;#46039f&quot;], [0.2222222222222222, &quot;#7201a8&quot;], [0.3333333333333333, &quot;#9c179e&quot;], [0.4444444444444444, &quot;#bd3786&quot;], [0.5555555555555556, &quot;#d8576b&quot;], [0.6666666666666666, &quot;#ed7953&quot;], [0.7777777777777778, &quot;#fb9f3a&quot;], [0.8888888888888888, &quot;#fdca26&quot;], [1.0, &quot;#f0f921&quot;]]}, &quot;colorway&quot;: [&quot;#636efa&quot;, &quot;#EF553B&quot;, &quot;#00cc96&quot;, &quot;#ab63fa&quot;, &quot;#FFA15A&quot;, &quot;#19d3f3&quot;, &quot;#FF6692&quot;, &quot;#B6E880&quot;, &quot;#FF97FF&quot;, &quot;#FECB52&quot;], &quot;font&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}, &quot;geo&quot;: {&quot;bgcolor&quot;: &quot;white&quot;, &quot;lakecolor&quot;: &quot;white&quot;, &quot;landcolor&quot;: &quot;#E5ECF6&quot;, &quot;showlakes&quot;: true, &quot;showland&quot;: true, &quot;subunitcolor&quot;: &quot;white&quot;}, &quot;hoverlabel&quot;: {&quot;align&quot;: &quot;left&quot;}, &quot;hovermode&quot;: &quot;closest&quot;, &quot;mapbox&quot;: {&quot;style&quot;: &quot;light&quot;}, &quot;paper_bgcolor&quot;: &quot;white&quot;, &quot;plot_bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;polar&quot;: {&quot;angularaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;radialaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}}, &quot;scene&quot;: {&quot;xaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}, &quot;yaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}, &quot;zaxis&quot;: {&quot;backgroundcolor&quot;: &quot;#E5ECF6&quot;, &quot;gridcolor&quot;: &quot;white&quot;, &quot;gridwidth&quot;: 2, &quot;linecolor&quot;: &quot;white&quot;, &quot;showbackground&quot;: true, &quot;ticks&quot;: &quot;&quot;, &quot;zerolinecolor&quot;: &quot;white&quot;}}, &quot;shapedefaults&quot;: {&quot;line&quot;: {&quot;color&quot;: &quot;#2a3f5f&quot;}}, &quot;ternary&quot;: {&quot;aaxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;baxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}, &quot;bgcolor&quot;: &quot;#E5ECF6&quot;, &quot;caxis&quot;: {&quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;}}, &quot;title&quot;: {&quot;x&quot;: 0.05}, &quot;xaxis&quot;: {&quot;automargin&quot;: true, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;, &quot;title&quot;: {&quot;standoff&quot;: 15}, &quot;zerolinecolor&quot;: &quot;white&quot;, &quot;zerolinewidth&quot;: 2}, &quot;yaxis&quot;: {&quot;automargin&quot;: true, &quot;gridcolor&quot;: &quot;white&quot;, &quot;linecolor&quot;: &quot;white&quot;, &quot;ticks&quot;: &quot;&quot;, &quot;title&quot;: {&quot;standoff&quot;: 15}, &quot;zerolinecolor&quot;: &quot;white&quot;, &quot;zerolinewidth&quot;: 2}}}, &quot;title&quot;: {&quot;text&quot;: &quot;Response distribution&quot;}, &quot;width&quot;: 700, &quot;xaxis&quot;: {&quot;anchor&quot;: &quot;y&quot;, &quot;domain&quot;: [0.0, 1.0], &quot;dtick&quot;: 0.1, &quot;linecolor&quot;: &quot;rgb(102, 102, 102)&quot;, &quot;showgrid&quot;: true, &quot;showline&quot;: true, &quot;showticklabels&quot;: true, &quot;tickcolor&quot;: &quot;rgb(102, 102, 102)&quot;, &quot;tickfont&quot;: {&quot;color&quot;: &quot;rgb(102, 102, 102)&quot;}, &quot;ticks&quot;: &quot;outside&quot;, &quot;title&quot;: {&quot;text&quot;: &quot;Population ratio&quot;}}, &quot;yaxis&quot;: {&quot;anchor&quot;: &quot;x&quot;, &quot;domain&quot;: [0.0, 1.0], &quot;title&quot;: {&quot;text&quot;: &quot;Did you vote for Donald Trump in the 2016 and/or 2020 elections?&quot;}}},                        {&quot;responsive&quot;: true}                    )                };                            &lt;/script&gt;        &lt;/div&gt;
 
 &lt;div class=&quot;card&quot;&gt;
@@ -92,7 +92,7 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;32 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I'm worried he's sown a seed of sedition that will drive millions of white nationalists to start a second civil war.
+		I&apos;m worried he&apos;s sown a seed of sedition that will drive millions of white nationalists to start a second civil war.
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;31 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -104,7 +104,7 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;28 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		He was an embarrassment to the entire country.  He led an attack on his own country's capital.  That says enough right there.
+		He was an embarrassment to the entire country.  He led an attack on his own country&apos;s capital.  That says enough right there.
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;28 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -169,7 +169,7 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		Trump's action may be undone in many areas over time. but win or lose,his legacy will endure in the federal courts where his conservative lifetime appointees will influence every aspect of American life for decades.
+		Trump&apos;s action may be undone in many areas over time. but win or lose,his legacy will endure in the federal courts where his conservative lifetime appointees will influence every aspect of American life for decades.
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;14 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -197,7 +197,7 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		He didn't send troops to war, had the lowest unemployment rate in 50 years, moved the embassy to Jerusalem, brought relative peace to the middle east
+		He didn&apos;t send troops to war, had the lowest unemployment rate in 50 years, moved the embassy to Jerusalem, brought relative peace to the middle east
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;7 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -271,8 +271,8 @@ Please choose the opinions you support AND/OR post your own opinion(s). When you
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 22 Jan 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/MAGA/</link>
-        <guid isPermaLink="true">http://localhost:4000/MAGA/</guid>
+        <link>https://aska.systems/MAGA/</link>
+        <guid isPermaLink="true">https://aska.systems/MAGA/</guid>
         
         
       </item>
@@ -350,7 +350,7 @@ The color of the most dominant group is indicated at the center of the circular 
   &lt;/div&gt;
   &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    The most important to me is letting the president do his job. Parties working together. Accepting the results! Not destroying cities when you don't get your way.
+    The most important to me is letting the president do his job. Parties working together. Accepting the results! Not destroying cities when you don&apos;t get your way.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -514,7 +514,7 @@ The color of the most dominant group is indicated at the center of the circular 
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    Equality. Justice. A president who doesn't give handouts but also had a heart
+    Equality. Justice. A president who doesn&apos;t give handouts but also had a heart
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -538,7 +538,7 @@ The color of the most dominant group is indicated at the center of the circular 
 
 &lt;div class=&quot;card&quot;&gt;
   &lt;div class=&quot;card-header&quot;&gt;
-  Climate change, Women's rights, etc. (61 posts)
+  Climate change, Women&apos;s rights, etc. (61 posts)
   &lt;/div&gt;
   &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -559,7 +559,7 @@ The color of the most dominant group is indicated at the center of the circular 
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    Women's rights/pro-choice
+    Women&apos;s rights/pro-choice
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -603,8 +603,8 @@ The color of the most dominant group is indicated at the center of the circular 
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 04 Nov 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/USpresidentOct/</link>
-        <guid isPermaLink="true">http://localhost:4000/USpresidentOct/</guid>
+        <link>https://aska.systems/USpresidentOct/</link>
+        <guid isPermaLink="true">https://aska.systems/USpresidentOct/</guid>
         
         
       </item>
@@ -692,7 +692,7 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;13 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I'm very concerned about a vaccine being approved strictly for political purposes and then being given to the public without sufficient trials. If proper procedure is followed, however, I'll get that vaccine as soon as it's available.
+    I&apos;m very concerned about a vaccine being approved strictly for political purposes and then being given to the public without sufficient trials. If proper procedure is followed, however, I&apos;ll get that vaccine as soon as it&apos;s available.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -782,12 +782,12 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I'm aware of a previous vaccine that was rushed out and had disastrous results for some.
+    I&apos;m aware of a previous vaccine that was rushed out and had disastrous results for some.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;div class=&quot;collapse&quot; id=&quot;collapseExample2&quot;&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    No, I wouldn't. The vaccine would not have been tested for long enough to know it is safe.
+    No, I wouldn&apos;t. The vaccine would not have been tested for long enough to know it is safe.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -823,7 +823,7 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I would consider it, but only after it has been proven safe. It would take a while to study the vaccine to know it's safety.
+    I would consider it, but only after it has been proven safe. It would take a while to study the vaccine to know it&apos;s safety.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -832,7 +832,7 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
   &lt;/li&gt;
   &lt;div class=&quot;collapse&quot; id=&quot;collapseExample3&quot;&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I'd want to know long term side effects - a year or more down the line - before I made a decision.
+    I&apos;d want to know long term side effects - a year or more down the line - before I made a decision.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -840,7 +840,7 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I would wait until I am sure the vaccine is safe and effective, that is others have taken it and are okay. I won't be first in line.
+    I would wait until I am sure the vaccine is safe and effective, that is others have taken it and are okay. I won&apos;t be first in line.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;16 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -913,7 +913,7 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;29 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
-    I would get it if it is proven to be safe. I think it is patriotic and everyone's responsibility to help stop the spread of the virus.
+    I would get it if it is proven to be safe. I think it is patriotic and everyone&apos;s responsibility to help stop the spread of the virus.
     &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
   &lt;/li&gt;
   &lt;li class=&quot;list-group-item&quot;&gt;
@@ -995,8 +995,8 @@ We neglect the green and orange portions of the diagram hereafter.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 21 Oct 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/COVIDvaccine/</link>
-        <guid isPermaLink="true">http://localhost:4000/COVIDvaccine/</guid>
+        <link>https://aska.systems/COVIDvaccine/</link>
+        <guid isPermaLink="true">https://aska.systems/COVIDvaccine/</guid>
         
         
       </item>
@@ -1053,7 +1053,7 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;27 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      Kindness, compassion, and decency. I'd like for there to be more important things to the administration than their own power and income.
+      Kindness, compassion, and decency. I&apos;d like for there to be more important things to the administration than their own power and income.
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;23 likes&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -1217,7 +1217,7 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;43 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      I think race issues are the biggest problem right now.  It's become ridiculous all these people protesting, rioting, etc over two people who were involved in criminal activity.
+      I think race issues are the biggest problem right now.  It&apos;s become ridiculous all these people protesting, rioting, etc over two people who were involved in criminal activity.
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;40 likes&lt;/span&gt;
     &lt;/li&gt;    
   &lt;/ul&gt;
@@ -1301,11 +1301,11 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
 
 &lt;div class=&quot;card&quot;&gt;
   &lt;div class=&quot;card-header&quot;&gt;
-    &quot;Women's rights&quot;
+    &quot;Women&apos;s rights&quot;
   &lt;/div&gt;
   &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      Women's rights and their right to choose, keep abortion safe and legal.
+      Women&apos;s rights and their right to choose, keep abortion safe and legal.
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;79 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
@@ -1313,7 +1313,7 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;75 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      Women's reproductive rights (easier and more affordable access to feminine hygiene products, revised abortion laws, etc.)
+      Women&apos;s reproductive rights (easier and more affordable access to feminine hygiene products, revised abortion laws, etc.)
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;72 likes&lt;/span&gt;
     &lt;/li&gt;    
   &lt;/ul&gt;
@@ -1329,7 +1329,7 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;65 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      Protect, preserve and expand where needed any and all issues which would threaten DEMOCRACY and each and every citizen's rights within said Democracy.
+      Protect, preserve and expand where needed any and all issues which would threaten DEMOCRACY and each and every citizen&apos;s rights within said Democracy.
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;59 likes&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -1365,7 +1365,7 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;54 likes&lt;/span&gt;
     &lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;
-      Stopping America's descent into fascism
+      Stopping America&apos;s descent into fascism
       &lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;46 likes&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -1415,8 +1415,8 @@ Among 144 independent opinions &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-not
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 06 Oct 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/USpresidentSep/</link>
-        <guid isPermaLink="true">http://localhost:4000/USpresidentSep/</guid>
+        <link>https://aska.systems/USpresidentSep/</link>
+        <guid isPermaLink="true">https://aska.systems/USpresidentSep/</guid>
         
         
       </item>
@@ -1440,7 +1440,7 @@ Most of the responses were collected at the site of Presidential Debate (Univers
   &lt;/div&gt;
   &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		Hillary Clinton doesn't care about BlackLives She only cares about BlackVotes
+		Hillary Clinton doesn&apos;t care about BlackLives She only cares about BlackVotes
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;27 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1452,7 +1452,7 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;17 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		She's a liar and should buy Glennbeck's new book
+		She&apos;s a liar and should buy Glennbeck&apos;s new book
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;12 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleA&quot;&gt;
@@ -1493,7 +1493,7 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;45 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		ImWithHer because she cared enough to prepare． She&apos;s smart． Ready． And passionate about details because they matter．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;32 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1506,15 +1506,15 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 	&lt;/li&gt;
 	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleB&quot;&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		Hillary, because she's got unparalleled leadership and political experience． She's able to take a stand but can also compromise．
+		Hillary, because she&apos;s got unparalleled leadership and political experience． She&apos;s able to take a stand but can also compromise．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I'm with her because she is the most pro-science and intellectual candidate．
+		I&apos;m with her because she is the most pro-science and intellectual candidate．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;5 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		Only one choice． I can't believe Trump．
+		Only one choice． I can&apos;t believe Trump．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1542,20 +1542,20 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;26 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		ImWithHer because she cared enough to prepare． She's smart． Ready． And passionate about details because they matter．
+		ImWithHer because she cared enough to prepare． She&apos;s smart． Ready． And passionate about details because they matter．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;24 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I am against Trump because he doesn't seem to have the  emotional stability required from someone that can launch nuclear weapons．
+		I am against Trump because he doesn&apos;t seem to have the  emotional stability required from someone that can launch nuclear weapons．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;19 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I am not a HillaryClinton fan, but I hope she's okay．
+		I am not a HillaryClinton fan, but I hope she&apos;s okay．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;18 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;div class=&quot;collapse&quot; id=&quot;collapseExampleC&quot;&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I think he doesn't have the minimal level of knowledge required to be capable of running a country．
+		I think he doesn&apos;t have the minimal level of knowledge required to be capable of running a country．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;11 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1567,7 +1567,7 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;10 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		America can't be compromised by leaders with conflicting loyalties．
+		America can&apos;t be compromised by leaders with conflicting loyalties．
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;9 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1575,7 +1575,7 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
-		I'm not with her． I feel the bern． But we are stronger together
+		I&apos;m not with her． I feel the bern． But we are stronger together
 		&lt;br /&gt;&lt;span class=&quot;badge badge-dark&quot;&gt;4 likes&lt;/span&gt;
 	&lt;/li&gt;
 	&lt;li class=&quot;list-group-item&quot;&gt;
@@ -1600,8 +1600,8 @@ Most of the responses were collected at the site of Presidential Debate (Univers
 
 </description>
         <pubDate>Sun, 23 Aug 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/PresidentialElection2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/PresidentialElection2016/</guid>
+        <link>https://aska.systems/PresidentialElection2016/</link>
+        <guid isPermaLink="true">https://aska.systems/PresidentialElection2016/</guid>
         
         
       </item>
